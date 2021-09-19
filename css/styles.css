@@ -63,6 +63,9 @@
 .header-contacts-link:hover {
   color: var(--accent-color);
 }
+.header-contacts-link:focus {
+  color: var(--accent-color);
+}
 
 .header-contacts-link {
   font-family: Roboto;
@@ -198,8 +201,11 @@
   text-align: center;
 }
 
-.btn-list:hover,
-:focus {
+.btn-list:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-title-color);
+}
+.btn-list:focus {
   background-color: var(--accent-color);
   color: var(--primary-title-color);
 }
